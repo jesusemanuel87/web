@@ -1,0 +1,1031 @@
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+h3,h4{
+	color: #1d273b;
+	font-weight: 300;
+}
+
+/*************  Global  *************/
+.contenedor, .contenido-header{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor1{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.btnSuscribete{
+	height: 38px;
+	background-color: #e8491d; /*poner color amarillo, buscar codigo*/
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+/*************  Encabezado  *************/
+
+/*header::before {
+    content: "";
+    display: block;
+    margin-bottom: 50px;
+}*/
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: #24282b;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(18, 147, 212, 1.2);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition: top 0.3s;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav .marca {
+		color: #fff;
+    height: 50px;  
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+    font-size: 25px;
+}
+
+.enlaces {
+    font-weight: 300;
+    transition: ease-in-out 0.5s;
+}
+
+.nav .enlaces a {
+	  float: rigth;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav .enlaces .actual{
+	color: #1293d4;
+	font-weight: bold;
+}
+
+.icono{
+  display:none;
+  font-size: 24px;
+  padding: 23.5px 20px;
+}
+
+.marca a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header .resaltado{
+	color: #1293d4;
+	font-weight: bold;
+	font-size: 28px;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	background: #fff;
+	border-radius: 50%;
+	text-align: center;
+	padding: 3px 0;
+}
+
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+
+
+/*************  Cabecera con imagen  ***********/
+#cabecera{	
+	margin-top: 50px;
+	min-height: 300px;
+	background: url("../img/banner_31.jpg") no-repeat fixed;
+	background: cover;
+	background-position: center top;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+#cabecera h1{
+	margin-top: 50px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+/********* Formulario Boletin Suscribete *********/
+#boletin{
+	height: auto;
+	color:  #fff;
+	background: #24282b;
+}
+
+#boletin h1{
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+
+#boletin form{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#boletin input[type="email"]{	
+	height: 35px;
+	width: 250px;
+}
+
+/********* Contenido Header *********/
+
+.contenido-header{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.contenido-header img{
+	width: 550px;
+	border-radius: 10px;
+	animation: ease-in animat 1s;
+}
+
+@keyframes animat{
+	0%{
+		transform: scale(0);
+	}100%{
+		transform: scale(1);
+	}
+}
+
+.textos-header{
+	margin: 0 0 0 30px;
+}
+
+.contenido-header h1{
+	font-size: 40px;
+}
+
+.contenido-header p {
+    font-weight: 100;
+    margin-top: 14px;
+    margin-right: 20px;
+    color: #5D6678;
+}
+
+/*********************************/
+/***** SECCION CHECKLIST ********/
+/********************************/
+.contenedor1{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor1 img{
+	width: 500px;
+	border-radius: 10px;
+	animation: ease-in animat 1s;
+}
+
+.box-skills{
+	margin: 30px 30px 0;
+}
+
+.box-skills h4{	
+	font-size: 35px;
+	background: #fff;
+	width: 350px;
+	border-radius: 6px;
+	padding: 5px 0 10px 15px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.box-skills h4:hover{
+	box-shadow: 0 4px 20px rgba(17, 29, 48, .26);
+}
+
+.box-skills i{
+	color: #1293d4;
+	font-size: 20px;
+}
+
+
+
+/********* Cajas *********/
+.contenedor{
+  margin:auto;
+  padding: 0px 0;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+.contenedor h3{
+  font-size: 33px;
+  color: rgb(219,144,.5);
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.contenedor p{
+  font-size: 18px;
+  font-weight: 300;
+
+}
+.after::after{
+  content:'';
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 100px;
+  height: 2px;
+  background: rgba(18, 147, 212, 1.2);
+  margin-bottom:45px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.content-card{
+  width: 31%;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  overflow: hidden;
+  height:400px;
+}
+
+.people{
+  height: 80%;
+}
+
+.content-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-team{
+  height: 20%;
+  width: 100%;
+  padding: 10px 0;
+}
+
+/******** SECCION PRODUCTOS ******/
+
+
+/* SLIDER - BANNER CARRUSEL */
+
+.container-slider{	
+	width: 90%;
+	max-width: 1300px;
+	margin: auto;
+	overflow: hidden;
+	box-shadow: 1px 1px 10px 0;
+	position: relative;
+}
+
+.slider{
+	margin-top: 55px;
+	display: flex;
+	width: 400%;
+	height: 400px;
+	margin-left: -100%;
+}
+
+.slider__section{
+	width: 100%;
+}
+
+.slider__img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slider__btn{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.7);
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 30px;
+	font-weight: bold;
+	font-family: monospace;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider__btn:hover{
+	background: #fff;
+}
+
+.slider__btn--left{
+	left: 10px;
+}
+
+.slider__btn--right{
+	right: 10px;
+}
+
+
+
+
+/* SECCION FILTRO PRODUCTOS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrap{
+	max-width: 1100px;
+	width: 90%;
+	margin:  auto;
+	margin-top: 10px;
+}
+
+.wrap > h1{
+	color: black;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.wrap > h1:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #C7C7C7;
+	margin: 20px 0;
+}
+
+.store-wrapper{
+	display:  flex;
+	flex-wrap: wrap;	
+}
+
+.category_list{
+	display:  flex;
+	flex-direction: column;
+	width: 18%;
+}
+
+.category_list .category_item{
+	display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	background: #1293d4;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.category_list .ct_item-active{
+	background: #2D3E50;
+}
+
+/* SECCION PRODUCTOS ***************************************/
+
+.products-list{
+	width: 82%;
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+
+.products-list .product-item img{
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+}
+
+.products-list .product-item a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	background: #2D3E50;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.product-item:hover{
+    box-shadow: 0 4px 20px rgba(17, 29, 48, .26);
+}
+.product-item:hover a{
+    color: #ccc;
+	font-weight: bold;
+}
+
+.product-item{
+	width: 30%;
+	margin-left: 3%;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+	border-radius: 10px;
+	transition: all .4s;
+}
+
+/* SECCION FORMULARIO CONTACTO ******************************/
+
+
+.formulario {
+	max-width: 800px;
+	display: block;
+	margin: auto;
+	padding: 40px;
+}
+
+.formulario h1{
+	text-align: center;
+	padding: 15px;
+}
+
+.formulario__label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+	opacity: 0.5;
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+	opacity: 1;
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+
+
+
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+	grid-column: span 2;
+}
+
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+
+#textarea{
+	widows: 100%;
+	margin: 0;
+	height: 150px;
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+	margin-bottom: 15px;
+	margin-top: 40px;
+}
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos, 
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.formulario__btn {
+		width: 100%;
+	}
+}
+
+
+/******** Footer ********/
+footer{
+	color: #fff;
+	background-color: #1293d4;
+	text-align: center;
+	position: relative;
+}
+.social-media{
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	width: 70%;
+	
+}
+
+.fab{
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 5px;
+	display: inline-block;
+	padding: 0 0px 0 0px;	
+	top:  50%;
+}
+
+
+.fab:hover{
+	 box-shadow: 0 4px 20px rgba(17, 29, 48, .4);	
+	 border-radius: 50%;
+}
+
+footer p{
+	margin-top: 10px;
+	width: 100%;
+	background: #2D3E50;
+}
+
+/* +++++  seccion RESPONSIVE +++*******************************++ */
+
+@media screen and (max-width: 1100px){
+	.products-list .product-item{
+		width: 30.3%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.category_list,
+	.products-list{
+		width: 100%;
+	}
+
+	.category_list{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.category_list .category_item{
+		align-self: flex-start;
+		width: 15%;
+		font-size: 14px;
+	}
+
+	.products-list .product-item{
+		margin-left: 4.5%;
+	}
+
+	.products-list .product-item:nth-child(3n+1){
+		margin-left: 0px;
+	}
+
+.slider{	
+	height: 300px;
+}
+
+	#boletin{
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+		display: flex;
+		justify-content: space-around;
+	}
+	#boletin h1, #boletin form{
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.contenido-header, .contenedor1{
+		height: auto;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	.contenido-header>img, .contenedor1>img {
+    width: 50%;
+	}
+
+}
+
+@media (max-width: 768px){
+	#cabecera h1{
+		font-size: 50px;
+		margin-top: 20px;
+	}
+	header #marca,
+	#boletin form,
+	#cajas .caja{
+		padding-bottom: 10px;}
+	
+	input, textarea {width: 98%;}
+	
+	.contenido-header h1{
+		font-size: 25px;
+		margin-top: 15px;
+	}
+
+	.contenido-header p{
+	font-size: 15px;
+	margin-bottom: 20px;
+	}
+
+	.box-skills h4{
+		font-size: 50%;
+		width: auto;
+	}
+
+	.slider{	
+	height: 250px;
+}
+
+	#boletin{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	float: none;
+	}
+
+	#boletin h1{
+		width: 100%;
+	}
+	#boletin form{
+		width: 100%;	
+		margin-top: 5px;
+	}
+	#boletin input[type="email"]{	
+	height: 35px;
+	width: 70%;
+	}
+
+	#boletin button {
+		width: 70%;} 
+}
+
+
+
+
+@media screen and (max-width: 700px){
+	.category_list{
+		flex-direction: column;
+	}
+	.category_list .category_item{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.icono{
+		display: block;
+		cursor: pointer;
+		color: #fff;
+	}
+
+	.icono:hover{
+		color: #34495e;
+		font-weight: bold;
+	}
+
+	.enlaces{
+		position: fixed;
+		top: 80px;
+		background: #2c3e50;
+		left: 0;
+		height: 100%;
+		transition: 1s;
+		width: 0;
+		overflow: hidden;
+	}
+
+	.enlaces a{
+		display: block;
+		width: 100%;
+		height: 50px;
+		padding: 20px;
+		text-align: center;
+		background: #34495e;
+		color: #fff;
+	}
+
+	 .content-card{
+    width: 48%;
+    margin-bottom:40px;
+  }
+
+	.contenido-header{
+	justify-content: space-around;
+	flex-wrap: wrap;	
+	}
+	.contenido-header img{width: 90%;}
+
+	.contenedor1 img{
+		display: none;
+	}
+
+	.box-skills {
+		width: 100%;
+	}
+
+	.contenedor1 img{width: 100%;}
+
+.slider{height: 200px; }
+
+}
+
+
+
+@media screen and (max-width: 600px){
+
+	.products-list .product-item{
+		width: 47.5%;
+	}
+
+	.products-list .product-item:nth-child(3n+1){
+		margin-left: 4.5%;
+	}
+
+	.products-list .product-item:nth-child(2n+1){
+		margin-left: 0px;
+	}
+
+	#cabecera h1{font-size: 40px;}
+
+	.content-card{
+    width: 90%;
+  	}
+
+}
+
+@media screen and (max-width: 500px){
+	.products-list .product-item {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	#cabecera h1{font-size: 30px;}	
+
+	#boletin h1{font-size: 100%;}
+
+	.formulario__mensaje {
+	height: 65px;
+	}
+}
+
+
+
+/*******************  CARGA DE ONLOAD ******************/
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+
+/**************** PRE LOAD *****************/
+.hidden{
+  overflow: hidden;
+}
+
+.centrado{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/************ CHAT BOX ************/
+
+ {box-sizing: border-box;}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+  border-radius: 30px;
+}
+.open-button:hover{
+	background-color: #43E996;
+	 box-shadow: 0 4px 20px rgba(17, 29, 48, .26);
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #1293d4;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+} 

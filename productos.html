@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Insumos y Asesorias Industriales JE | Productos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Insumos y Asesorias">
+	<meta name="keywords" content="Insumos, Asesorias, Industriales, herramientas">
+	<meta name="author" content="Jesus E. Garcia">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/jquery-3.6.0.js"></script>
+</head>
+
+<body class="hidden">
+	
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+	<!-- BARRA SUPERIOR NAVBAR -->
+	<header>
+
+		<nav class="nav" id="nav">
+			<section class="contenedor nav">			
+					<div class="marca">
+						<a href="index.html"><h1><span class="resaltado"> JE </span> 
+						 Industriales</h1></a>
+					</div>
+					<div class="enlaces" id="enlaces" name="menu">
+						<a href="index.html" class="btn-header"><i class="fa fa-fw fa-home"></i> Inicio</a>
+						<a href="index.html" class="btn-header"><i class="fas fa-users"></i> Nosotros</a>
+						<a class="actual" href="productos.html" class="btn-header"><i class="fas fa-briefcase"></i> Productos</a>
+						<a href="contacto.html" class="btn-header"><i class="fa fa-fw fa-envelope"></i> Contacto</a>			
+					</div>
+					<div class="icono">
+                    	<span id="open">&#9776;</span>
+                	</div>				
+			</section>
+		</nav>
+	</header>
+
+
+		<div class ="container-slider">
+			<div class ="slider" id="slider">
+
+				<div class ="slider__section"><img src="img/banner1.jpg" alt="" class="slider__img"></div>
+				<div class ="slider__section"><img src="img/banner2.png" alt="" class="slider__img"></div>
+				<div class ="slider__section"><img src="img/banner3.png" alt="" class="slider__img"></div>
+				<div class ="slider__section"><img src="img/banner_31.jpg" alt="" class="slider__img"></div>
+
+			</div>
+			<div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+			<div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+		</div>
+
+		<script src="js/slider.js"></script>
+
+		<!-- STORE  -->
+		<div class="wrap">
+			<h1>Nuestros Productos</h1>
+			<div class="store-wrapper">
+				<div class="category_list" id="category_list">
+					<a href="#category_list" class="category_item ct_item-active" category="all">Todo</a>
+					<a href="#category_list" class="category_item" category="herramientas">Herramientas</a>
+					<a href="#category_list" class="category_item" category="electricidad">Electricidad</a>
+					<a href="#category_list" class="category_item" category="seco">Construccion en Seco</a>
+				</div>
+
+				<!-- Seccion de PRODUCTOS -->
+				<section class="products-list">
+
+					<!-- HERRAMIENTAS -->
+					
+					<div class="product-item" category="herramientas">
+						<img src="productos/herramienta1.jpg" alt=""> 
+						<a href="#">Herramienta 1</a>
+					</div>
+					
+
+					<div class="product-item" category="herramientas">
+						<img src="productos/herramienta2.jpg" alt=""> 
+						<a href="#">Herramienta 2</a>
+					</div>
+
+					<div class="product-item" category="herramientas">
+						<img src="productos/herramienta3.jpg" alt=""> 
+						<a href="#">Herramienta 3</a>
+					</div>
+
+					<!-- ELECTRICIDAD -->
+					<div class="product-item" category="electricidad">
+						<img src="productos/electricidad1.jpg" alt=""> 
+						<a href="#">Electricidad 1</a>
+					</div>
+
+					<div class="product-item" category="electricidad">
+						<img src="productos/electricidad2.jpg" alt=""> 
+						<a href="#">Electricidad 2</a>
+					</div>
+
+					<div class="product-item" category="electricidad">
+						<img src="productos/electricidad3.jpg" alt=""> 
+						<a href="#">Electricidad 3</a>
+					</div>
+
+					<!-- SECO -->
+					<div class="product-item" category="seco">
+						<img src="productos/seco1.jpg" alt=""> 
+						<a href="#">Seco 1</a>
+					</div>
+
+					<div class="product-item" category="seco">
+						<img src="productos/seco2.jpg" alt=""> 
+						<a href="#">Seco 2</a>
+					</div>
+
+					<div class="product-item" category="seco">
+						<img src="productos/seco3.jpg" alt=""> 
+						<a href="#">Seco 3</a>
+					</div>
+
+				</section>
+			</div>
+		</div>
+
+		<!-- BOLETIN SUSCRIPCION -->
+	<section id="boletin">
+		<div class="contenedor">
+			<h1>Suscribete a nuestro boletin de ofertas</h1>
+			<form>
+				<input type="email" name="email" placeholder="Ingrese su email...">
+				<button type="submit" class="btnSuscribete">Suscribirse</button>
+			</form>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer>
+		<section id="redes">
+		<div class="caja">
+			<h2>Redes sociales</h2>
+				<div class="social-media">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+		<p>JE Insumos y Asesorias Industriales, Copyright &copy; 2021</p>
+	</footer>
+<script src="https://kit.fontawesome.com/ccd0011526.js" crossorigin="anonymous"></script>
+
+<div>
+	<button class="open-button" onclick="openForm()">Chat</button>
+
+	<div class="form-popup" id="myForm">
+	  <form action="#" class="form-container">
+	    <h1>Chat</h1>
+
+	    <label for="msg"><b>Mensaje</b></label>
+	    <textarea placeholder="Escriba su consulta..." name="msg" required></textarea>
+
+	    <button type="submit" class="btn">Enviar</button>
+	    <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+	  </form>
+	</div>
+</div>
+<script>
+	function openForm() {
+  		document.getElementById("myForm").style.display = "block";
+	}
+
+	function closeForm() {
+	  	document.getElementById("myForm").style.display = "none";
+	} 
+</script>
+<script src="https://kit.fontawesome.com/ccd0011526.js" crossorigin="anonymous"></script>
+
+	<script src="js/script.js"></script>
+	<script src="js/main.js"></script>
+	<!-- <script src="js/menu.js"></script> -->
+	<script src="js/scroll.js"></script>
+	<script src="js/filtro.js"></script>
+</body>
+</html>
